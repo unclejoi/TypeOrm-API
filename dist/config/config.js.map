@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/config/config.js"],"names":["module","exports","secret"],"mappings":"AAAAA,OAAOC,OAAP,GAAiB;AACbC,YAAQ;AADK,CAAjB","file":"config.js","sourcesContent":["module.exports = {\r\n    secret: 'xurpas-enterprise-inc'\r\n}"]}

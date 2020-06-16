@@ -1,0 +1,26 @@
+MongoDb Configuration
+
+
+{
+   "type": "mongodb",
+   "url":"mongodb+srv://dbUser:dbPassword@cluster0-vjpwy.mongodb.net/test?retryWrites=true&w=majority",
+   "useUnifiedTopology": true,
+   "synchronize": true,
+   "logging": true,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
+
+ 
