@@ -19,7 +19,7 @@
       "mysql": "^2.18.1",
       "reflect-metadata": "^0.1.10",
       "request": "^2.88.2",
-      "typeorm": "0.2.24"
+      "typeorm": "0.2.25"
    },
    "scripts": {
       "start": "ts-node src/index.ts --watch",
